@@ -6,7 +6,8 @@ def using_insert(array, element)
   array.insert(4, element)
 end
 
-def using_unique
+def using_unique(array)
+  array.unique
 end
 
 def using_flatten
